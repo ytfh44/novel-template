@@ -1,0 +1,35 @@
+# 世界观
+# 由 /novel-specify 生成
+
+# 时代背景
+era: "" # e.g. "架空中世纪末期", "近未来2145年"
+
+# 地理/空间
+geography:
+  overview: ""
+  key_locations:
+    # - name: ""
+    #   description: ""
+    #   significance: ""
+
+# 社会结构
+society:
+  political_system: ""
+  economic_system: ""
+  social_hierarchy: ""
+  cultural_norms: []
+
+# 魔法/科技体系 (如适用)
+power_system:
+  name: ""
+  rules:
+    - ""
+  limitations:
+    - ""
+  cost: ""
+
+# 历史事件
+history:
+  # - event: ""
+  #   when: ""
+  #   impact: ""

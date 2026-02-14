@@ -1,0 +1,30 @@
+# 文风指南
+# 由 /novel-constitution 建立
+
+# 叙事视角
+narration:
+  pov: "" # 第一人称 / 第三人称有限 / 全知 / 交替
+  tense: "" # 过去时 / 现在时
+  narrator_reliability: "" # 可靠 / 不可靠
+
+# 语言风格
+language:
+  register: "" # 口语化 / 文学性 / 混合
+  sentence_rhythm: "" # 短促有力 / 长句流动 / 交替变化
+  metaphor_density: "" # 高 / 中 / 低
+  dialect_or_era: "" # 当代白话 / 古风 / 方言着色 等
+
+# 对话风格
+dialogue:
+  tag_style: "" # 极简("说") / 动作代替 / 混合
+  subtext_level: "" # 高（潜台词丰富） / 低（直抒胸臆）
+
+# 场景描写
+scene_description:
+  sensory_emphasis: [] # 偏重的感官, e.g. [视觉, 嗅觉]
+  pacing_default: "" # 默认节奏, e.g. "中等"
+
+# 禁忌清单 — 不得出现的表达
+taboo_expressions:
+  - ""
+  # 例: "避免使用'突然'"

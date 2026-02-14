@@ -1,0 +1,16 @@
+# 改进建议
+# 由 /novel-analyze 生成
+
+last_run: null
+
+suggestions:
+  # - id: "sug-001"
+  #   category: structure          # structure | character | pacing | style | theme | foreshadowing
+  #   severity: info               # error | warning | info
+  #   target:
+  #     chapter: null
+  #     plot_group: ""
+  #     character_id: ""
+  #   description: ""
+  #   recommendation: ""
+  #   status: open                 # open | accepted | dismissed

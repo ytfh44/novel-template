@@ -1,0 +1,22 @@
+# 情节组排列 & 节奏标注
+# 由 /novel-plan 维护, /novel-write 消费
+# 支持动态章节规划 — 不指定绝对章节号, 只定义顺序
+
+# 排列策略
+ordering_strategy: manual # manual | auto
+# auto 模式下, 系统根据 pacing 标签自动调整顺序
+
+# 情节组排列
+sequence:
+  # - group_id: "plot-001"
+  #   pacing: compact          # compact(紧凑) | moderate(适中) | relaxed(舒缓) | transition(过渡)
+  #   estimated_chapters: 2    # 预计占几章
+  #   depends_on: []           # 依赖的前置情节组ID (必须排在前面)
+  #   notes: ""
+
+# 自动生成的章节映射 (由 /novel-write 填充, 勿手动编辑)
+chapter_mapping:
+  # - chapter_number: 1
+  #   title: ""
+  #   group_id: "plot-001"
+  #   sequence_tag: "trigger"  # trigger / develop / climax / resolution

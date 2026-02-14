@@ -1,0 +1,13 @@
+# 待处理任务
+# 由 /novel-tasks 维护
+
+backlog:
+  # - id: "task-backlog-001"
+  #   type: write
+  #   description: ""
+  #   target:
+  #     plot_group: ""
+  #     beat: ""
+  #   priority: low
+  #   blocked_by: []          # 阻塞此任务的任务ID
+  #   notes: ""

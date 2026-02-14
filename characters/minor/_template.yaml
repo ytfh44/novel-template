@@ -1,0 +1,32 @@
+# 次要角色模板
+# 每个次要角色一个文件, 放在 characters/minor/<角色名>.yaml
+
+id: "" # e.g. "char-minor-001"
+name: ""
+aliases: []
+role: "" # 在故事中的功能性角色, e.g. "导师", "信使", "对照组"
+
+# 基础信息 (精简版)
+basics:
+  age: null
+  gender: ""
+  appearance: "" # 一句话外貌
+  occupation: ""
+
+# 性格速写
+personality: "" # 1~2 句话概括
+
+# 与主要角色的关系
+primary_relationship:
+  target_id: ""
+  target_name: ""
+  type: ""
+  description: ""
+
+# 出场信息
+appearances:
+  # - plot_group: ""
+  #   role_in_scene: ""      # 此场景中的功能
+
+# 语言标记 (简版)
+voice_tag: "" # 一句话描述说话风格, e.g. "沉默寡言, 只在关键时刻开口"

@@ -1,0 +1,21 @@
+# 角色语言习惯模板
+# 供 /novel-write 在撰写对话时参照, 防止 OOC
+
+character_id: ""
+
+# 语言特征
+speech_patterns:
+  vocabulary_level: "" # 粗俗 / 平实 / 文雅 / 书卷气
+  sentence_length: "" # 短促 / 适中 / 冗长
+  tone: "" # 温和 / 尖锐 / 冷淡 / 热情
+  quirks: [] # 语言习惯, e.g. ["喜欢用反问句", "会在紧张时重复自己的话"]
+
+# 内心独白风格 (如果有 POV 章节)
+inner_voice:
+  style: "" # 与外在语言的差异描述
+  recurring_thoughts: [] # 反复出现的念头/意象
+
+# 随弧光变化的语言转变
+voice_evolution:
+  # - arc_stage_id: "arc-stage-01"
+  #   changes: ""             # 此阶段的语言变化描述

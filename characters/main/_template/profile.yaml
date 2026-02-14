@@ -1,0 +1,32 @@
+# 主要角色档案模板
+# 使用 /novel-character 创建新角色时, 复制此模板到 characters/main/<角色名>/profile.yaml
+
+id: "" # e.g. "char-001"
+name: "" # 姓名
+aliases: [] # 别名/称号
+
+# 基础信息
+basics:
+  age: null
+  gender: ""
+  appearance: "" # 外貌描写
+  occupation: ""
+  affiliations: [] # 所属组织/阵营
+
+# 性格内核
+personality:
+  core_trait: "" # 核心性格特质 (一句话)
+  strengths: []
+  flaws: []
+  fears: []
+  desires: []
+  moral_alignment: "" # e.g. "混乱善良"
+
+# 背景故事
+backstory: |
+
+# 标志性特征 — 读者回忆锚点
+signature:
+  mannerism: "" # 标志性小动作
+  catchphrase: "" # 口头禅 (可选)
+  symbolic_item: "" # 标志性物品

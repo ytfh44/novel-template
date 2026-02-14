@@ -1,0 +1,22 @@
+# 故事前提
+# 由 /novel-specify 生成
+
+# 一句话概要 (logline)
+logline: ""
+# 例: "一个失忆剑客在废土中寻找自己的过去，却发现自己正是毁灭世界的元凶"
+
+# 长概要 (synopsis)
+synopsis: |
+
+# 故事类型
+genre:
+  primary: "" # 主类型, e.g. "奇幻"
+  secondary: [] # 副类型, e.g. ["悬疑", "成长"]
+
+# 目标读者
+target_audience: "" # e.g. "18-35 岁, 喜好深度叙事的读者"
+
+# 预计体量
+estimated_length:
+  unit: "字" # 字 / 章 / 卷
+  count: null # e.g. 200000

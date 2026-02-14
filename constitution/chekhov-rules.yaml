@@ -1,0 +1,22 @@
+# 契诃夫之枪 & 伏笔规则
+# 由 /novel-constitution 建立, /novel-analyze 审计
+
+# 全局规则
+global_rules:
+  # 所有被展示的重要道具/信息必须在后续章节中发挥作用
+  - rule: "舞台上的枪必须开火"
+    description: "任何被刻意描写的元素（道具、技能、信息），在后续情节中必须发挥实际作用"
+
+  # 不能凭空出现未被铺垫的关键元素
+  - rule: "开火的枪必须上过舞台"
+    description: "关键转折中使用的元素，必须在之前被合理铺垫"
+
+# 伏笔登记簿 — 每条伏笔在种下时登记，回收时标记
+# 由 /novel-write 种下, /novel-analyze 审计
+foreshadowing_registry:
+  # - id: "fs-001"
+  #   description: "主角书架上的旧相框"
+  #   planted_in: "plot-group-id or chapter"
+  #   expected_payoff: "plot-group-id or chapter"
+  #   actual_payoff: null          # 回收时填写
+  #   status: planted              # planted | paid_off | abandoned

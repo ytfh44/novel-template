@@ -1,0 +1,29 @@
+# 角色弧光模板
+# 定义角色在故事中的成长轨迹
+
+character_id: ""
+
+# 弧光类型
+arc_type: "" # 正向成长 / 堕落 / 扁平(坚守型) / 幻灭→重生
+
+# 起始状态 — 故事开始时角色的内在状态
+initial_state:
+  belief: "" # 核心信念, e.g. "力量就是正义"
+  wound: "" # 内心创伤
+  want: "" # 表面欲望 (角色以为自己想要的)
+  need: "" # 深层需求 (角色真正需要的)
+
+# 弧光阶段
+stages:
+  # - stage_id: "arc-stage-01"
+  #   name: "安于现状"
+  #   description: "角色沉浸在虚假信念中"
+  #   triggered_by: ""           # 触发进入此阶段的情节组ID
+  #   belief_at_stage: ""        # 此阶段的信念状态
+  #   behavior_patterns: []      # 此阶段的行为模式 (供OOC检测用)
+  #   exits_when: ""             # 什么事件推动角色进入下一阶段
+
+# 终态 — 故事结束时角色的内在状态
+final_state:
+  belief: "" # 蜕变后的信念
+  resolution: "" # 角色弧光的结局

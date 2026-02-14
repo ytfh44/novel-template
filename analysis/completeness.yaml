@@ -1,0 +1,33 @@
+# 完整性检查结果
+# 由 /novel-analyze 生成
+
+last_run: null
+
+# 情节组完整性
+plot_completeness:
+  # - group_id: "plot-001"
+  #   group_name: ""
+  #   beats_status:
+  #     trigger: missing           # complete | partial | missing
+  #     develop: missing
+  #     climax: missing
+  #     resolution: missing
+  #   notes: ""
+
+# 伏笔审计 (契诃夫之枪)
+chekhov_audit:
+  total_planted: 0
+  total_paid_off: 0
+  total_abandoned: 0
+  unresolved:
+    # - id: "fs-001"
+    #   description: ""
+    #   planted_in: ""
+    #   expected_payoff: ""
+    #   severity: warning           # error(严重遗漏) | warning(需关注)
+
+# 主旨忠实度
+theme_fidelity:
+  # - theme: ""
+  #   coverage: 0.0                # 0.0~1.0, 在已写章节中的覆盖程度
+  #   underrepresented_in: []      # 缺少该主题表现的章节

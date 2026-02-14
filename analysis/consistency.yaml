@@ -1,0 +1,16 @@
+# 一致性检查结果
+# 由 /novel-analyze 生成
+
+last_run: null # ISO 时间戳
+
+checks:
+  # - chapter: 1
+  #   issues:
+  #     - type: character_ooc        # character_ooc | timeline | worldbuilding | continuity
+  #       severity: warning          # error | warning | info
+  #       description: ""
+  #       location: "第3段"
+  #       character_id: ""           # (OOC 专用)
+  #       expected_behavior: ""      # (OOC 专用) 根据 arc 阶段应有的行为
+  #       actual_behavior: ""        # (OOC 专用) 实际写出的行为
+  #       suggestion: ""

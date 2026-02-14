@@ -1,0 +1,14 @@
+# 角色关系模板
+# 定义此角色与其他角色的关系
+
+character_id: ""
+
+relationships:
+  # - target_id: ""              # 对方角色ID
+  #   target_name: ""
+  #   type: ""                   # 亲人 / 挚友 / 恋人 / 对手 / 导师 / 仇敌 / ...
+  #   description: ""            # 关系描述
+  #   dynamic: ""                # 关系如何随剧情变化
+  #   key_interactions:          # 关键互动事件
+  #     - plot_group: ""
+  #       impact: ""

@@ -1,0 +1,46 @@
+# 情节组模板
+# 每个情节组一个文件, 放在 plot/groups/<group-name>.yaml
+# 不指定绝对章节号, 在 _order.yaml 中排列
+
+id: "" # e.g. "plot-001"
+name: "" # 情节组名称, e.g. "学院入学"
+summary: "" # 一句话概要
+
+# 情节目的 — 这个情节组存在的理由
+purpose:
+  advances_theme: "" # 推进哪个主题
+  character_development: [] # 推动哪些角色的弧光进展
+  world_reveal: "" # 揭示世界观的哪些方面 (可选)
+
+# 关键点 (动态章节规划的核心)
+beats:
+  trigger: # 诱因 — 打破现状的事件
+    description: ""
+    characters_involved: []
+    foreshadowing_planted: [] # 此处种下的伏笔ID (引用 chekhov-rules.yaml)
+    foreshadowing_paid: [] # 此处回收的伏笔ID
+
+  develop: # 发展 — 冲突逐步升级
+    description: ""
+    characters_involved: []
+    foreshadowing_planted: []
+    foreshadowing_paid: []
+
+  climax: # 爆发 — 最高冲突点
+    description: ""
+    characters_involved: []
+    foreshadowing_planted: []
+    foreshadowing_paid: []
+
+  resolution: # 结局 — 新的平衡态
+    description: ""
+    characters_involved: []
+    foreshadowing_planted: []
+    foreshadowing_paid: []
+
+# 节奏标记
+pacing: moderate # compact | moderate | relaxed | transition
+
+# 依赖
+depends_on: [] # 前置情节组ID
+leads_to: [] # 后续情节组ID (可选)

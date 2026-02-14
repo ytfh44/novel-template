@@ -1,0 +1,21 @@
+# 章节清单 & Commit 状态
+# 由 /novel-write 维护
+
+# Commit 规则:
+#   - committed: 章节已定稿, 在 refine 时只可参照不可修改
+#   - uncommitted: 章节为草稿, 可被修改和重写
+#   - 使用 /novel-write commit <chapter> 或 uncommit <chapter> 切换状态
+
+chapters:
+  # - chapter_number: 1              # 自动生成的章节号
+  #   title: ""
+  #   file: "drafts/ch001.md"        # 文件路径
+  #   plot_group: ""                 # 对应的情节组ID
+  #   beat: ""                       # trigger / develop / climax / resolution
+  #   status: uncommitted            # committed | uncommitted
+  #   committed_at: null             # commit 时间戳
+  #   word_count: null
+  #   characters_appearing: []       # 出场角色ID列表
+  #   foreshadowing_planted: []      # 种下的伏笔
+  #   foreshadowing_paid: []         # 回收的伏笔
+  #   analysis_passed: false         # 是否通过 novel-analyze 检查

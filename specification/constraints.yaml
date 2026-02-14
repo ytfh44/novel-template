@@ -1,0 +1,26 @@
+# 硬约束
+# 由 /novel-specify 生成
+
+# 字数约束
+word_count:
+  min: null
+  max: null
+  per_chapter: null # 每章目标字数
+
+# 结构约束
+structure:
+  total_volumes: null # 总卷数 (null = 单卷)
+  chapter_naming: "" # 章节命名规则, e.g. "第X章 标题" / "纯数字"
+
+# 内容约束
+content:
+  rating: "" # 全年龄 / PG-13 / R
+  sensitive_topics:
+    allowed: []
+    forbidden: []
+
+# 发布约束
+publishing:
+  platform: "" # 连载平台 / 出版社
+  update_frequency: "" # 日更 / 周更 / 完结后发布
+  format: "" # Web连载 / 实体书 / 电子书

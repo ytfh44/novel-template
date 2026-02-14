@@ -1,0 +1,16 @@
+# 活跃任务
+# 由 /novel-tasks 维护
+
+active_tasks:
+  # - id: "task-001"
+  #   type: write              # write | revise | research | review
+  #   description: ""
+  #   target:
+  #     plot_group: ""         # 关联的情节组ID
+  #     beat: ""               # trigger / develop / climax / resolution
+  #   prerequisites:
+  #     characters_to_load: [] # 写作前必须读取的角色文件
+  #     chapters_to_reference: [] # 需要参考的已有章节
+  #   priority: medium         # high | medium | low
+  #   status: pending          # pending | in_progress | done
+  #   assigned_chapter: null   # 自动分配的章节号 (由 novel-write 填充)

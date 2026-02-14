@@ -1,0 +1,16 @@
+# 角色索引
+# 由 /novel-character 维护
+
+# 主要角色 (每个角色有独立文件夹 characters/main/<name>/)
+main_characters:
+  # - name: "角色名"
+  #   id: "char-001"
+  #   folder: "main/角色名/"
+  #   status: active       # active | retired | deceased
+
+# 次要角色 (每个角色一个文件 characters/minor/<name>.yaml)
+minor_characters:
+  # - name: "角色名"
+  #   id: "char-minor-001"
+  #   file: "minor/角色名.yaml"
+  #   status: active
